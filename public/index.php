@@ -4,7 +4,7 @@
  * view file of the framework if the file exist's.
  */
 try {
-    if (! include_once __DIR__ . '/views/master.php')
+    if (! include_once __DIR__ . '../')
      {
         throw new Exception(404 .' '. "Page not found !");
      }
